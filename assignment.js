@@ -64,7 +64,7 @@ hotelCost(11);
     Assignment 04 - megaFriend
  *************************************************/
 function megaFriend(arrayOfFriends) {
-  if (typeof arrayOfFriends !== "object" || arrayOfFriends.length <= 0) {
+  if (typeof arrayOfFriends !== "object" || arrayOfFriends.length === 0) {
     return "Please provide valid input";
   }
 
