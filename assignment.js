@@ -30,7 +30,7 @@ function budgetCalculator(watch, phone, laptop) {
     phone: 100,
     laptop: 500,
   };
-  let total = watch * prices.watch + phone * prices.watch + laptop * prices.laptop;
+  let total = watch * prices.watch + phone * prices.phone + laptop * prices.laptop;
 
   return total;
 }
